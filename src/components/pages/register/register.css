@@ -1,0 +1,51 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,255, 255, 0.5),rgba(255,255, 255, 0.5)), url("../../../assets/Images/regbg.jpg");
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size: 50px;
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.registerForm > label{
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.registerButton{
+    border: none;
+    background-color: teal;
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: lightcoral;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
